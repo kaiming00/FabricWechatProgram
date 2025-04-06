@@ -1,6 +1,6 @@
 <view class="user_info_wrap">
   <view wx:if="{{userinfo.avatarUrl}}" class="user_img_wrap">
-    <image class="user_bg" src="{{userinfo.avatarUrl}}"></image>
+    <image class="user_bg"  src="{{userinfo.avatarUrl}}"></image>
     <view class="user_info">
      <image class="user_icon" src="{{userinfo.avatarUrl}}"></image>
      <view class="user_name">{{userinfo.nickName}}</view>
@@ -11,8 +11,36 @@
   </view>
 </view>
 
-<view class="orders_title">个人中心</view>
+<!-- <view class="orders_title">个人中心</view>
 
 <navigator url="/pages/we/we" >
   <view class="app_info_item">关于我们</view></navigator>
-  
+   -->
+   <view class="demo-section__wrapper">
+
+<t-cell title="DID: did:example:ebfeb1f712" description="创建时间：2022/10/05 20:16:02">
+  <view  slot="left-icon">
+    <!-- <open-data type="userAvatarUrl" /> -->
+    <image  class="user_icon2" src="{{userinfo.avatarUrl}}"></image>
+  </view>
+</t-cell>
+<navigator url="/pages/basicinfo/basicinfo" >
+<t-cell title="基本信息"   arrow t-class-left="t-class-left">
+  <t-icon name="app" slot="left-icon" />
+</t-cell>
+</navigator>
+<navigator url="/pages/keymanage/keymanage" >
+<t-cell title="私钥管理"  arrow t-class-left="t-class-left">
+  <t-icon name="creditcard" slot="left-icon" />
+</t-cell> 
+</navigator>
+<t-cell title="DID接入"  arrow t-class-left="t-class-left">
+  <t-icon name="link" slot="left-icon" />
+</t-cell>
+<navigator url="/pages/orginfo/orginfo" >
+<t-cell title="机构信息"   arrow t-class-left="t-class-left">
+  <t-icon name="user-avatar" slot="left-icon" />
+</t-cell>
+</navigator>
+
+</view>

@@ -1,0 +1,16 @@
+<view class="demo-title">声明详情</view>
+<view class="demo-section__wrapper">
+  <view class="line"></view>
+  <!-- <t-cell title="创建时间" required /> -->
+
+  <t-cell title="持有者DID" hover note="{{didholder}}" />
+  <t-cell title="声明类型" hover note="{{didtype}}" />
+  <t-cell title="声明概述" hover note="{{diddes}}"/>
+  <t-cell title="声明详情" hover note="{{didinfo}}"/>
+  <t-cell title="签发者DID" hover note="{{didfather}}" />
+  <t-cell title="签发时间" hover note="{{didtime}}"/>
+  <t-cell title="到期时间" hover note="{{didouttime}}"/>
+  <t-cell title="签名算法" hover note="{{didalg}}"/>
+  <t-cell title="签名"  description="{{didsign}}" />
+  
+</view>

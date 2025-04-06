@@ -1,0 +1,7 @@
+<view>
+<t-notice-bar
+  visible="{{true}}"
+  marquee="{{marquee2}}"
+  content="敬请期待~"
+></t-notice-bar>
+</view>

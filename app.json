@@ -7,11 +7,19 @@
     "pages/we/we",
     "pages/city/city",
     "pages/kuaidi/kuaidi",
-    "pages/shu/shu"
+    "pages/shu/shu",
+    "pages/wode/wode",
+    "pages/apply/apply",
+    "pages/notification/notification",
+    "pages/basicinfo/basicinfo",
+    "pages/keymanage/keymanage",
+    "pages/claiminfo/claiminfo",
+    "pages/orginfo/orginfo",
+    "pages/shiming/shiming"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarTitleText": "查询中心",
+    "navigationBarTitleText": "VANETs DID",
     "navigationBarTextStyle": "white",
     "navigationBarBackgroundColor": "#43B0D1"
   },
@@ -29,12 +37,15 @@
 
       {
         "pagePath": "pages/dynamic/dynamic",
-        "text": "个人",
+        "text": "我的",
         "iconPath": "images/human.png",
         "selectedIconPath": "images/human2.png"
       }
     ]
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+
+  "sitemapLocation": "sitemap.json",
+  "paths": {
+    "tdesign-miniprogram/*":["./miniprogram/miniprogram_npm/tdesign-miniprogram/*"]
+  }
 }

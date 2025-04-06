@@ -1,0 +1,13 @@
+<view class="demo-title">机构信息</view>
+<view class="demo-section__wrapper">
+  <view class="line"></view>
+  <!-- <t-cell title="创建时间" required /> -->
+
+  <t-cell title="机构概述" hover note="车联网DID认证声明" />
+  <t-cell title="机构概述" hover note="用户账号在通过实名认证后可申请DID"/>
+  <t-cell title="机构DID" hover note="did:example:76e12ec712ebc6"/>
+  <t-cell title="机构网站" hover note="www.w3.org/2018/credentials/v1" />
+  <t-cell title="颁发声明" hover note="VANETs区块链网络认证"/>
+  <t-cell title="材料清单" hover note="姓名;身份证号码;车牌号;驾照"/>
+
+</view>

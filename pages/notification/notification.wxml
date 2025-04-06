@@ -1,0 +1,8 @@
+<view>
+<t-notice-bar
+  visible="{{true}}"
+  prefixIcon="sound"
+  marquee="{{marquee2}}"
+  content="您还未收到任何通知~"
+></t-notice-bar>
+</view>

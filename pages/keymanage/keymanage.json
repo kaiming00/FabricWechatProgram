@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-switch": "tdesign-miniprogram/switch/switch",
+    "t-cell": "tdesign-miniprogram/cell/cell",
+    "t-badge": "tdesign-miniprogram/badge/badge",
+    "t-input": "tdesign-miniprogram/input/input",
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-dialog": "tdesign-miniprogram/dialog/dialog"
+  }
+}

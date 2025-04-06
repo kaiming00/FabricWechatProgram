@@ -1,0 +1,10 @@
+<view class="demo-title">基本信息</view>
+<view class="demo-section__wrapper">
+  <view class="line"></view>
+  <t-cell title="版本" hover note="{{dversion}}" />
+  <!-- <t-cell title="创建时间" required /> -->
+
+  <t-cell title="签名算法" hover note="{{dsign}}"/>
+  <t-cell title="更新时间" hover note="{{dupdatetime}}" />
+
+</view>

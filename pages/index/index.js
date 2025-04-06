@@ -1,8 +1,9 @@
 const app = getApp()
 var util = require('../../utils/util.js');
+
 // pages/index/index.js
 Page({
-
+ 
   /**
    * 页面的初始数据
    */
@@ -74,4 +75,5 @@ Page({
   onShareAppMessage: function () {
 
   }
+  
 })

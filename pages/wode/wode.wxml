@@ -1,0 +1,16 @@
+<view class="demo-title">DID文档</view>
+<view class="demo-section__wrapper">
+  <view class="line"></view>
+  <navigator url="/pages/geren/geren">
+  <t-cell title="当前版本" hover note="{{dversion}}" />
+  </navigator>
+
+  <!-- <t-cell title="创建时间" required /> -->
+
+  <t-cell title="创建时间" hover note="{{dcreatetime}}" />
+  <t-cell title="更新时间" hover note="{{dupdatetime}}" />
+  <t-cell title="签名算法" hover note="{{dsign}}"/>
+  <t-cell title="私钥（主）" hover note="{{dpkmain}}" />
+  <t-cell title="私钥备" hover note="{{dpkbak}}"/>
+  
+</view>

@@ -1,0 +1,23 @@
+<!--示例页面 -->
+<view class="input-example">
+  <view class="demo-title">申请声明</view>
+  <view class="demo-section__wrapper">
+  <view class="line"></view>
+  <t-demo title="01 类型" desc="基础文本框">
+    <t-input model:value="{{firstValue}}"  label="姓名" placeholder="请输入姓名" />
+  </t-demo>
+  <t-demo title="01 类型" desc="基础文本框">
+    <t-input model:value="{{secondValue}}"  label="身份证号" placeholder="请输入身份证号" />
+  </t-demo>
+  <t-demo title="01 类型" desc="基础文本框">
+    <t-input model:value="{{thirdValue}}" label="车牌号" placeholder="请输入车牌号" />
+  </t-demo>
+  <view class="box">  
+    <t-button t-class="external-class" theme="primary" block disabled="{{disabled}}" bind:tap="showok">申请声明</t-button>
+
+  </view>
+  <view class="demo-desc"
+    >为了您的安全考虑，小程序不会保留任何资料信息</view
+  >
+</view>
+</view>

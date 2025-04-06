@@ -14,7 +14,7 @@
               {{day}}
             </view>
             <view class="weui-media-box_text">
-              天你已使用，本小程序欢迎您的使用!!!😘😘😘
+              天你已使用，车联网DID认证小程序欢迎您的使用
             </view>
           </block>
         </view>
@@ -25,46 +25,78 @@
   <view class="user_content">
 <view class="user_main">
 
-  <navigator url="/pages/we/we" >
+  <navigator url="" >
   <view class="app_info_item">查询大厅</view></navigator>
 
-
-  <view class="view_3">
-    <navigator url="/pages/kuaidi/kuaidi"  class="list-item">
+  <t-tabs defaultValue="{{1}}" bind:change="onTabsChange" bind:click="onTabsClick" t-class="custom-tabs">
+  <t-tab-panel label="声明中心" value="0">
+    <view class="view_3">
+    <!-- <navigator url="/pages/kuaidi/kuaidi"  class="list-item">
       <image class="item-image" src="/images/1.png"></image>
       <text class="item-text">我的快递</text>
       <image class="image-jiantou" src="/images/duo.png"></image>
     </navigator>      
-
-
     <view class="line"></view>
-
-
-    
 
     <navigator url="/pages/city/city" class="list-item">
       <image class="item-image" src="/images/2.png"></image>
       <text class="item-text">我所在城市天气</text>
       <image class="image-jiantou" src="/images/duo.png"></image>
     </navigator>
-
     <view class="line"></view>
-
-
-
 
     <navigator url="/pages/shu/shu" class="list-item">
       <image class="item-image" src="/images/shu.png"></image>
       <text class="item-text">ISBN书号查询</text>
       <image class="image-jiantou" src="/images/duo.png"></image>
     </navigator>
+    <view class="line"></view> -->
+    <navigator url="/pages/wode/wode" class="list-item">
+      <image class="item-image" src="/images/main_doc.png"></image>
+      <text class="item-text">查看文档</text>
+      <image class="image-jiantou" src="/images/duo.png"></image>
+    </navigator>
+    <view class="line"></view>
 
+    <navigator url="/pages/claiminfo/claiminfo" class="list-item">
+      <image class="item-image" src="/images/main_center.png"></image>
+      <text class="item-text">声明详情</text>
+      <image class="image-jiantou" src="/images/duo.png"></image>
+    </navigator>
+
+    <view class="line"></view>
+  </view>
+  </t-tab-panel>
+  <t-tab-panel label="申请声明" value="1">
+
+    <navigator url="/pages/apply/apply" class="list-item">
+      <image class="item-image" src="/images/main_apply.png"></image>
+      <text class="item-text">申请声明</text>
+      <image class="image-jiantou" src="/images/duo.png"></image>
+    </navigator>
+    <view class="line"></view>
+
+    <navigator url="/pages/shiming/shiming" class="list-item">
+      <image class="item-image" src="/images/main_shiming.png"></image>
+      <text class="item-text">实名认证</text>
+      <image class="image-jiantou" src="/images/duo.png"></image>
+    </navigator>
     <view class="line"></view>
 
 
-  </view>
+  </t-tab-panel>
+  <t-tab-panel label="消息中心" value="2">
+    <navigator url="/pages/notification/notification" class="list-item">
+      <image class="item-image" src="/images/main_notice.png"></image>
+      <text class="item-text">消息中心</text>
+      <image class="image-jiantou" src="/images/duo.png"></image>
+    </navigator>
+    <view class="line"></view>
+  </t-tab-panel>
+</t-tabs>
 
   
+
 
 </view>
 </view>

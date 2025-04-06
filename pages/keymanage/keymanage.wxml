@@ -1,0 +1,14 @@
+<view class="demo-title">私钥管理</view>
+<view class="demo-section__wrapper">
+  <view class="line"></view>
+  <!-- <t-cell title="创建时间" required /> -->
+  <t-input label="主私钥" size="small" disabled="true" type="{{ps}}" align="right" value="{{dpkmain}}" />
+  <t-input label="备份私钥" size="small" disabled="true" type="{{ps}}" align="right" value="{{dpkbak}}" />
+
+  <view class="box">  
+    <t-button wx:if="{{show}}" t-class="external-class" theme="primary" block disabled="{{disabled}}" bind:tap="show">隐藏秘钥</t-button>
+    <t-button wx:if="{{hide}}" t-class="external-class" theme="primary" block disabled="{{disabled}}" bind:tap="hide">显示秘钥</t-button>
+
+  </view>
+
+</view>

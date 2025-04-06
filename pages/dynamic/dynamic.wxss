@@ -15,6 +15,7 @@ page{
 }
 
 .user_bg{
+  width: 100%;
   height: 50vh;
   filter: blur(10rpx);
 }
@@ -28,6 +29,12 @@ text-align: center;
  .user_icon{
   width: 150rpx;
   height: 150rpx;
+  border-radius: 50%;
+  position: relative;
+}
+.user_icon2{
+  width: 100rpx;
+  height: 100rpx;
   border-radius: 50%;
   position: relative;
 }
@@ -115,3 +122,17 @@ justify-content: space-between;
   padding: 20rpx;
 }
 
+.demo-section__wrapper {
+  margin: 32rpx 0;
+}
+
+.t-class-left {
+  align-self: flex-start;
+}
+
+.avatar {
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
